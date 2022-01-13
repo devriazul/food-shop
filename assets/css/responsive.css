@@ -1,0 +1,381 @@
+/* Responsive CSS */
+/* applies to x-large devices (large desktops, less than 1400px) */
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .container {
+    max-width: 1140px;
+  }
+  .home-left h1 {
+    font-size: 45px;
+  }
+  .home-right .home-parallax {
+    top: -65px;
+    right: -125px;
+  }
+  .about-content h2 {
+    font-size: 30px;
+  }
+  .about-icon {
+    margin-bottom: 30px;
+  }
+  .popular-food {
+    gap: 15px;
+  }
+  .first-banner {
+    height: 358px;
+  }
+}
+/* applies to large devices (desktops, less than 1200px) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    max-width: 960px;
+  }
+  .main-nav .nav-list .nav-item .nav-link {
+    font-size: 19px;
+    padding: 10px 16px;
+  }
+  .home-left h4 {
+    font-size: 25px;
+  }
+  .home-left h1 {
+    font-size: 35px;
+  }
+  .home-right .home-parallax {
+    top: -41px;
+    right: -110px;
+  }
+  .about-content h2 {
+    font-size: 28px;
+  }
+  .home-left p,
+  .about-content p {
+    font-size: 17px;
+  }
+  .about-icon {
+    gap: 18px;
+    margin-bottom: 30px;
+  }
+  .popular-food {
+    gap: 12px;
+  }
+  .popular-content h3 {
+    font-size: 20px;
+  }
+  .popular-content .price {
+    font-size: 18px;
+  }
+  .first-banner {
+    height: 300px;
+  }
+  .banner-content h1 {
+    font-size: 40px;
+    margin: 0;
+  }
+  .sec-banner {
+    gap: 19px;
+  }
+  .box-content span {
+    font-size: 20px;
+  }
+  .box-content h3 {
+    font-size: 25px;
+    margin-top: 5px;
+  }
+  .menu {
+    gap: 18px;
+  }
+  .menu-content h3 {
+    font-size: 19px;
+  }
+  .menu-content p {
+    font-size: 17px;
+  }
+  .blog {
+    gap: 18px;
+  }
+  .blog-box .blog-content .tags a {
+    font-size: 15px;
+  }
+  .blog-box .blog-content h3 {
+    font-size: 23px;
+  }
+  .blog-box .blog-content p {
+    font-size: 15px;
+  }
+  .footer-box {
+    grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+    gap: 15px;
+  }
+  .footer-box .box ul li,
+  .footer-box .box p {
+    padding: 7px 0;
+  }
+  .footer-box .box ul li a,
+  .footer-box .box p {
+    font-size: 14px;
+  }
+}
+/* applies to medium devices (tablets, less than 992px) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .container {
+    max-width: 720px;
+  }
+  .main-nav .nav-list .nav-item .nav-link {
+    font-size: 18px;
+    padding: 6px;
+  }
+  .home {
+    flex-wrap: wrap-reverse;
+  }
+  .home-left,
+  .home-right {
+    flex: 1 1 100%;
+  }
+  .home-left h1,
+  .about-content h2 {
+    font-size: 30px;
+  }
+  .home-left h4,
+  .banner-content h4 {
+    font-size: 25px;
+  }
+  .home-left p,
+  .about-content p {
+    font-size: 18px;
+    margin-bottom: 0px;
+  }
+  .home-right .home-parallax {
+    display: none;
+  }
+  .catagory {
+    gap: 14px;
+    flex-wrap: wrap;
+  }
+  .catagory-item {
+    width: 32%;
+  }
+  .about {
+    gap: 20px;
+    flex-wrap: wrap-reverse;
+  }
+  .about-image,
+  .about-content {
+    width: 100%;
+  }
+  .popular-food {
+    gap: 20px;
+  }
+  .popular-item,
+  .banner-box,
+  .menu-box,
+  .blog-box {
+    width: 48%;
+  }
+  .first-banner {
+    height: 230px;
+  }
+  .banner-content h1 {
+    font-size: 30px;
+    margin: 0;
+  }
+  .banner-content p,
+  .menu-content p {
+    font-size: 18px;
+  }
+  .box-content span,
+  .menu-content h3 {
+    font-size: 22px;
+  }
+  .box-content h3 {
+    font-size: 25px;
+    margin-top: 0;
+  }
+  .order-icons .icons-box p {
+    font-size: 16px;
+  }
+  .form-group {
+    gap: 13px;
+  }
+  .form-group .inputBox label {
+    font-size: 18px;
+  }
+  .form-group .inputBox.w-100 {
+    width: 100%;
+  }
+  .form-group .inputBox iframe {
+    margin-top: 5px;
+  }
+  .newsletter form {
+    width: 80%;
+  }
+}
+/* applies to small devices (landscape phones, less than 768px) */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .container {
+    max-width: 540px;
+  }
+}
+/* applies to x-small devices */
+@media (max-width: 767px) {
+  .container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  .title {
+    font-size: 29px;
+  }
+
+  .logo-link {
+    font-size: 25px;
+  }
+  .menu-icon div {
+    font-size: 20px;
+  }
+
+  .main-nav {
+    position: absolute;
+    top: 100%;
+    left: -300px;
+    width: 300px;
+    z-index: 5;
+    background: var(--white);
+    height: 100vh;
+    padding-top: 70px;
+    overflow: hidden;
+    transition: 0.3s;
+  }
+  .main-nav.active {
+    left: 0;
+  }
+  .main-nav .nav-list {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .main-nav .nav-list .nav-item {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .main-nav .nav-list .nav-item .nav-link {
+    font-size: 20px;
+    display: block;
+    background: var(--green);
+    border-radius: 10px;
+    padding: 5px;
+    color: var(--white);
+  }
+  .main-nav .nav-list .nav-item .nav-link:hover {
+    color: var(--white);
+    background: var(--black);
+  }
+  #menu-btn {
+    display: inline-block;
+  }
+  .fa-times {
+    transform: rotate(180deg);
+  }
+  .home {
+    flex-wrap: wrap-reverse;
+  }
+  .home-left,
+  .home-right {
+    flex: 1 1 100%;
+  }
+  .home-left h4,
+  .blog-box .blog-content h3 {
+    font-size: 20px;
+  }
+  .home-left h1,
+  .about-content span,
+  .box-content span {
+    font-size: 23px;
+  }
+
+  .home-left p,
+  .about-content p {
+    font-size: 17px;
+  }
+  .home-right .home-parallax {
+    display: none;
+  }
+  .catagory,
+  .about-icon,
+  .order-icons {
+    flex-direction: column;
+  }
+  .about {
+    flex-direction: column-reverse;
+  }
+  .catagory-item,
+  .about-image,
+  .about-content,
+  .about-icon .icons,
+  .popular-item,
+  .banner-box,
+  .menu-box,
+  .order-icons .icons-box,
+  .form-group .inputBox,
+  .blog-box {
+    width: 100%;
+  }
+  .popular-area {
+    padding-bottom: 0;
+  }
+  .first-banner {
+    height: 70vh;
+  }
+  .banner-content h4,
+  .about-content h2 {
+    font-size: 25px;
+  }
+  .banner-content h1 {
+    font-size: 30px;
+    margin: 5px 0;
+  }
+  .sec-banner,
+  .form-group .inputBox iframe {
+    margin-top: 0;
+  }
+  .banner-box {
+    height: 340px;
+  }
+  .box-content h3 {
+    font-size: 25px;
+    margin-top: 5px;
+  }
+  .menu-box {
+    padding: 10px;
+  }
+  .menu-content h3,
+  .form-group .inputBox label {
+    font-size: 18px;
+  }
+  .menu-content p {
+    font-size: 16px;
+  }
+  .blog-box .blog-content .tags a {
+    font-size: 15px;
+  }
+  .blog-box {
+    margin-bottom: 0;
+  }
+  .blog-box:last-child {
+    margin-bottom: 20px;
+  }
+  .blog-box .blog-image {
+    height: 180px;
+  }
+  .newsletter form {
+    width: 95%;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .newsletter form input[type="submit"] {
+    width: 200px;
+    padding: 10px 20px;
+    border-radius: 50px;
+  }
+  .author {
+    font-size: 15px;
+  }
+}

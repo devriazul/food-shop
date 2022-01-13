@@ -8,5 +8,5 @@
 - CSS3
 - JavScript
   ![food-shop](home.png)
-  [Preview](https://russellimtiaz.github.io/food-shop/)
+
 # food-shop
